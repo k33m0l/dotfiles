@@ -21,7 +21,8 @@
     ],
 
     "modules-right": [
-
+        "battery",
+        "battery#bat2",
     ],
 
     "custom/separator#line": {
@@ -33,6 +34,56 @@
     "clock": {
         "interval": 1,
 	"format": "⏱ {:%H:%M:%S}",
+    },
+
+    "battery": {
+	"interval": 10,
+	"align": 0,
+	"rotate": 0,
+	"bat": "BAT0",
+	//"adapter": "ACAD",
+	"full-at": 100,
+	"design-capacity": false,
+	"states": {
+		"good": 95,
+		"warning": 30,
+		"critical": 15
+	},
+	"format": "{icon} {capacity}%",
+	"format-charging": " {capacity}%",
+	"format-plugged": "󱘖 {capacity}%",
+	"format-full": "{icon} Full",
+	"format-icons": [
+		"󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"
+	],
+	"format-time": "{H}h {M}min",
+	"tooltip": true,
+	"tooltip-format": "{timeTo} {power}w",
+    },
+    
+    "battery#bat2": {
+	"interval": 10,
+	"align": 0,
+	"rotate": 0,
+	"bat": "BAT1",
+	//"adapter": "ACAD",
+	"full-at": 100,
+	"design-capacity": false,
+	"states": {
+		"good": 95,
+		"warning": 30,
+		"critical": 15
+	},
+	"format": "{icon} {capacity}%",
+	"format-charging": " {capacity}%",
+	"format-plugged": "󱘖 {capacity}%",
+	"format-full": "{icon} Full",
+	"format-icons": [
+		"󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"
+	],
+	"format-time": "{H}h {M}min",
+	"tooltip": true,
+	"tooltip-format": "{timeTo} {power}w",
     },
 
     "hyprland/workspaces#kanji": {

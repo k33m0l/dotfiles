@@ -94,6 +94,7 @@ window#waybar.empty #window {
 #workplaces button,
 #taskbar,
 #taskbar button,
+#battery,
 #clock{
 	padding-top: 4px;
 	padding-bottom: 4px;
