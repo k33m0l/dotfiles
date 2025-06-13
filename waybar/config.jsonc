@@ -1,0 +1,59 @@
+{
+    "layer": "top",
+    "exclusive": true,
+    "passthrough": false,
+    "position": "top",
+    "spacing": 3,
+    "fixed-center": true,
+    "ipc": true,
+    "margin-top": 3,
+    "margin-left": 8,
+    "margin-right": 8,
+
+    "modules-left": [
+
+    ],
+
+    "modules-center": [
+	"clock",
+        "custom/separator#line",
+	"hyprland/workspaces#kanji",
+    ],
+
+    "modules-right": [
+
+    ],
+
+    "custom/separator#line": {
+        "format": "|",
+        "interval": "once",
+        "tooltip": false,
+    },
+
+    "clock": {
+        "interval": 1,
+	"format": "⏱ {:%H:%M:%S}",
+    },
+
+    "hyprland/workspaces#kanji": {
+	"disable-scroll": true,
+	"show-special": false,
+	"all-outputs": true,
+	"format": "{icon}",
+    "persistent-workspaces": {
+      "*": 5
+	},
+	"format-icons": {
+		"1": "一",
+		"2": "二",
+		"3": "三",
+		"4": "四",
+		"5": "五",
+		"6": "六",
+		"7": "七",
+		"8": "八",
+		"9": "九",
+		"10": "十",
+	}
+    },
+}
