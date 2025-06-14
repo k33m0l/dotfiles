@@ -96,6 +96,7 @@ window#waybar.empty #window {
 #taskbar button,
 #battery,
 #mpris,
+#network,
 #clock{
 	padding-top: 4px;
 	padding-bottom: 4px;

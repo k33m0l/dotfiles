@@ -21,6 +21,8 @@
     ],
 
     "modules-right": [
+	"network",
+	"custom/separator#line",
         "battery",
         "battery#bat2",
     ],
@@ -120,5 +122,21 @@
 		"stopped": "",
 	},
 	"max-length": 30,
+    },
+
+    "network": {
+	"interval": 20,
+	"format": "{ifname}",
+	"format-wifi": "{icon} {signalStrength}%",
+	"format-ethernet": "󰌘 ",
+	"format-disconnected": "󰌙 ",
+	"tooltip-format": "{ipaddr}",
+	"format-linked": "󰈁 {ifname} (No IP)",
+	"tooltip-format-wifi": "{essid} {icon} {signalStrength}%\n {bandwidthUpBytes}  {bandwidthDownBytes}\n{ipaddr}",
+	"tooltip-format-ethernet": "{ifname} 󰌘\n {bandwidthUpBytes}  {bandwidthDownBytes}\n{ipaddr}",
+	"tooltip-format-disconnected": "󰌙 Disconnected",
+	"format-icons": [
+		"󰤯", "󰤟", "󰤢", "󰤥", "󰤨"
+	]
     },
 }
