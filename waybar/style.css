@@ -99,6 +99,7 @@ window#waybar.empty #window {
 #network,
 #custom-swaync,
 #wireplumber,
+#bluetooth,
 #clock{
 	padding-top: 4px;
 	padding-bottom: 4px;
