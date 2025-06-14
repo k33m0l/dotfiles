@@ -30,6 +30,8 @@
         "battery",
         "battery#bat2",
 	"custom/separator#line",
+	"custom/mpvpaper",
+	"custom/separator#line",
         "custom/swaync",
     ],
 
@@ -187,5 +189,12 @@
 	"on-click": "blueman-manager",
     },
 
+    "custom/mpvpaper": {
+	"format": "♣",
+	"on-click": "mpvpaper ALL -o '--loop-file' $HOME/Pictures/Wallpaper/rei_blue.mp4",
+	"on-click-right": "killall mpvpaper",
+	"tooltip": true,
+	"tooltip-format": "Left Click: Start Animated Wallpaper\nRight Click: Stop Animated Wallpaper",
+    },
 }
 
