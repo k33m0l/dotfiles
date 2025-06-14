@@ -95,6 +95,7 @@ window#waybar.empty #window {
 #taskbar,
 #taskbar button,
 #battery,
+#mpris,
 #clock{
 	padding-top: 4px;
 	padding-bottom: 4px;
@@ -111,5 +112,9 @@ window#waybar.empty #window {
 
 #custom-separator{
     color: white;
+}
+
+#mpris{
+    padding-right: 12px;
 }
 

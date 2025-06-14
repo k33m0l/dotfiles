@@ -11,7 +11,7 @@
     "margin-right": 8,
 
     "modules-left": [
-
+        "mpris",
     ],
 
     "modules-center": [
@@ -41,7 +41,6 @@
 	"align": 0,
 	"rotate": 0,
 	"bat": "BAT0",
-	//"adapter": "ACAD",
 	"full-at": 100,
 	"design-capacity": false,
 	"states": {
@@ -66,7 +65,6 @@
 	"align": 0,
 	"rotate": 0,
 	"bat": "BAT1",
-	//"adapter": "ACAD",
 	"full-at": 100,
 	"design-capacity": false,
 	"states": {
@@ -106,5 +104,21 @@
 		"9": "九",
 		"10": "十",
 	}
+    },
+
+    "mpris": {
+	"interval": 10,
+	"format": "",
+	"format-paused": "{status_icon} <i>{dynamic}</i>",
+	"on-click-middle": "playerctl play-pause",
+	"on-click": "playerctl previous",
+	"on-click-right": "playerctl next",
+	"tooltip-format": "{status_icon} {dynamic}\nLeft Click: previous\nMid Click: Pause\nRight Click: Next",
+	"status-icons": {
+		"paused": "󰐎",
+		"playing": "",
+		"stopped": "",
+	},
+	"max-length": 30,
     },
 }
