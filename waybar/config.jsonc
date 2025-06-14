@@ -12,6 +12,8 @@
 
     "modules-left": [
         "mpris",
+        "custom/separator#line",
+	"wireplumber",
     ],
 
     "modules-center": [
@@ -138,5 +140,13 @@
 	"format-icons": [
 		"󰤯", "󰤟", "󰤢", "󰤥", "󰤨"
 	]
+    },
+
+    "wireplumber": {
+	"format": "{icon} {volume} %",
+	"format-muted": " Mute",
+	"format-icons": [
+		"", "", "󰕾", ""
+	],
     },
 }

@@ -97,6 +97,7 @@ window#waybar.empty #window {
 #battery,
 #mpris,
 #network,
+#wireplumber,
 #clock{
 	padding-top: 4px;
 	padding-bottom: 4px;
