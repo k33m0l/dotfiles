@@ -191,7 +191,7 @@
 
     "custom/mpvpaper": {
 	"format": "♣",
-	"on-click": "mpvpaper ALL -o '--loop-file' $HOME/Pictures/Wallpaper/rei_blue.mp4",
+	"on-click": "mpvpaper ALL -o '--loop-file' $HOME/Documents/Wallpapers/rei_blue.mp4",
 	"on-click-right": "killall mpvpaper",
 	"tooltip": true,
 	"tooltip-format": "Left Click: Start Animated Wallpaper\nRight Click: Stop Animated Wallpaper",
