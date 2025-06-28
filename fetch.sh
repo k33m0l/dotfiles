@@ -12,3 +12,6 @@ cp -vr $HOME/Documents/Wallpapers/* ./Wallpapers
 echo 'Fetch zsh config...'
 cp -v $HOME/.zshrc ./zsh/.zshrc
 
+echo 'Fetch fastfetch config...'
+cp -vr $HOME/.config/fastfetch/* ./fastfetch
+
